@@ -188,11 +188,195 @@ img {
   text-decoration: none;
   color: #FFA908;
 }
-
+.btn-aount1 {
+  background: #fff!important;
+  border-radius: 50px!important;
+  color: #000!important;
+  font-family: futuramediumbt;
+  padding: 5px 16px!important;
+  display: flex;
+  align-items: center;
+}
+.btn-aount1 .icon-name1 {
+  display: inline-block;
+  margin-right: 10px;
+  width: 44px;
+}
+.navbar{
+  margin-top: 15px;
+}
 .body-home1 .row > div.position-relative:first-child{
   border-right: solid 1px #fff;
 }
+.btn-aount1 span {
+  font-family: FuturaBoldfont;
+  font-size: 20px;
+}
+.div-steps{
+  background: #fff;
+  border-radius: 20px;
+  overflow: hidden;
+  display: inline-block;
+  height: 15px;
+  width: 90%;
+  position: relative;
 
+}
+.sp-1{
+  background: #FF0200;
+  height: 15px;
+  display: inline-block;
+  width: 15%;
+  position: absolute;
+  border-radius: 20px;
+
+
+}
+.color-gray{
+  color: #707070 !important;
+}
+.red-color{
+  color: #FF0200;
+}
+.color-green{
+  color: #2AF2FF;
+  text-decoration: none;
+}
+.sp-9{
+  background: #FF0200;
+  height: 15px;
+  display: inline-block;
+  width: 90%;
+  position: absolute;
+  border-radius: 20px;
+
+}
+.body-total-suppy{
+  background: url(../public/images/bg-rigth-home.jpg) no-repeat;
+  background-size: cover;
+  display: inline-block;
+  width: 100%;
+  padding: 20px;
+  border-radius: 8px;
+}
+.body-total-products{
+  background: url(../public/images/bg-rigth-home.jpg) no-repeat;
+  background-size: cover;
+  display: inline-block;
+  padding: 20px;
+  border-radius: 8px;
+}
+.body-total-products h2{
+  color: #2AF2FF;
+  font-family: 'FuturaBoldfont';
+  font-size: 45px;
+}
+.comon-items1{
+   display: grid;
+   align-content: center;
+   width: 90%;
+   background: rgba(255, 255, 255, 15%);
+   padding: 30px;
+   border-radius: 8px;
+   position: relative;
+   text-decoration: none;
+   height: 300px;
+   transition: all 0.5s;
+}
+.body-total-products h1{
+  color: #FF0200;
+  font-family: 'FuturaBoldfont';
+  font-size: 60px;
+}
+.counting-ps-suppy button{
+   background:  #2AF2FF;
+   border-radius: 50%;
+   overflow: hidden;
+   display: grid;
+   border: none;
+   color: #fff !important;
+   width: 45px;
+   height: 45px;
+   align-content: center;
+   font-weight: bold;
+   font-size: 18px;
+}
+.counting-ps-suppy{
+  display: grid;
+  align-content: center;
+  width:100%;
+  background: rgba(255, 255, 255, 15%);
+  padding:20px;
+  border-radius: 8px;
+  position: relative;
+  text-decoration: none;
+  height: 300px;
+  transition: all 0.5s;
+  margin-top: 30px;
+}
+.counting-ps-suppy h1{
+  color: #fff !important;
+}
+.mint-btn{
+  background: rgb(42,242,255);
+  background: linear-gradient(115deg, rgba(42,242,255,1) 0%, rgba(255,2,0,1) 100%);
+border: none !important;
+border-radius: 20px !important;
+color: #fff !important;
+font-family: 'FuturaBoldfont';
+font-size: 20px !important;
+width: 60%;
+margin: auto;
+}
+.comon-items1:hover{
+  background: rgba(255, 255, 255, 25%);
+}
+.comon-items1 a{
+  display: inline-block;
+  width: 100%;
+}
+.comon-items1 h3{
+  color: #2AF2FF;
+  font-family: 'FuturaBoldfont';
+  font-size: 30px;
+}
+.comon-items1 h5{
+  font-size: 18px;
+  color: #707070;
+}
+.comon-items1 ul li{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+.comon-items1 ul li span:last-child{
+  color: #2AF2FF;
+  font-size: 14px;
+}
+.suppy-hrad span{
+  color: #2AF2FF;
+}
+.renatin-hrad span{
+  color: #FF0200;
+}
+.body-div2-slide-suppy .slick-next,
+.body-div2-slide-suppy .slick-arrow{
+  display: none !important;
+}
+.goto-btn{
+  background: #FF0200 !important;
+  color: #fff !important;
+  border-radius: 30px !important;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  margin: auto;
+}
+.goto-btn svg{
+  width: 30px;
+  height: 30px;
+}
 footer {
   background: #000;
   display: inline-block;
