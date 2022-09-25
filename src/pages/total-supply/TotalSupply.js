@@ -16,12 +16,13 @@ function TotalSupply(){
 
     const settings = {
         dots: false,
-        infinite: false,
+        infinite: true,
         margin:30,
         speed: 500,
         slidesToShow:3,
         slidesToScroll: 1,
         initialSlide: 0,
+        autoplay: true,
         responsive: [
           {
             breakpoint: 1200,

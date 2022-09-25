@@ -282,6 +282,7 @@ img {
    text-decoration: none;
    height: 300px;
    transition: all 0.5s;
+   margin: auto;
 }
 .body-total-products h1{
   color: #FF0200;
@@ -394,7 +395,34 @@ footer p {
   .body-home1 .row > div.position-relative:first-child{
     border-right: none;
   }
-  
+  .navbar-toggler{
+    display: none;
+  }
+  .right-mnain-menu1{
+    display: table;
+    margin: auto;
+    margin-top: 20px;
+  }
+
+  .comon-items1{
+    height: 350px;
+    padding: 18px;
+  }
+  .comon-items1 ul li{
+    font-size: 13px;
+  }
+  .goto-btn{
+    width: 100%;
+  }
+  .comon-items1 ul li{
+    font-size: 13px;
+  }
+  .comon-items1 ul li span:last-child{
+    font-size: 11px;
+  }
+  .div-steps{
+    width: 76%;
+  }
 
 }
 @media screen and (max-width: 667px) {
@@ -404,6 +432,22 @@ footer p {
   }
   .body-home1 .row > div.position-relative:first-child{
     border-right: none;
+  }
+  .comon-items1{
+    height: 350px;
+    padding: 18px;
+  }
+  .comon-items1 ul li{
+    font-size: 13px;
+  }
+  .div-steps{
+    width: 76%;
+  }
+  .comon-items1 ul li span:last-child{
+    font-size: 12px;
+  }
+  .goto-btn{
+    width: 100%;
   }
 }
 
