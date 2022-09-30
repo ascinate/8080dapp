@@ -11,7 +11,7 @@ import Congrats from "./pages/products-cart/Congrats";
 import SoldOut from "./pages/products-cart/SoldOut";
 import NotWishList from "./pages/products-cart/NotWishList";
 import NotFound from "./pages/products-cart/NotFound";
-import Footer from "./Footer";
+import PreLogin from "./pages/register/PreLogin";
 
 function App() {
   return (
@@ -25,11 +25,13 @@ function App() {
                   <Route excaexact="true" path="/soldout" element={<SoldOut/>}/>
                   <Route excaexact="true" path="/notwishlist" element={<NotWishList/>}/>
                   <Route excaexact="true" path="/notfound" element={<NotFound/>}/>
+                  <Route excaexact="true" path="/prelogin" element={<PreLogin/>}/>
+                  
                   
                   
                   
              </Routes>
-             <Footer/>
+             
         </Router>
     </div>
   );
